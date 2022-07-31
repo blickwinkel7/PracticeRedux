@@ -12,7 +12,8 @@ function App() {
   }, []);
   return (
     <div>
-      <table>
+      <h1>LIST OF POKEMON</h1>
+      <table style={{"borderWidth":"1px", 'borderColor':"#black", 'borderStyle':'solid'}}>
        <thead>
         <tr>
           <th>Name</th>
